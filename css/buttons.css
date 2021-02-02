@@ -1,0 +1,11 @@
+.allButtton{
+    background-color: rgb(115, 179, 218);
+    color: rgb(255, 255, 255);
+    font-family: 'Raleway', sans-serif;
+}
+.navButton{
+    color: rgb(124, 199, 120);
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
