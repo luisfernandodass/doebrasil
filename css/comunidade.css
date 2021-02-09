@@ -1,7 +1,23 @@
+.cards{
+     height: 100px;
+}
 .imgInsideCards{
     height: 100px;
 }
 .imgInsideCardBrazil{
     height: 130px;
     width: 330px;
+    
+}
+.textCards{
+    padding-top: 10px;
+   
+      margin-top: -20px;
+    margin-left: -5px;
+    margin-bottom: 1px;
+    text-align: center;
+    
+}
+.secondCol{
+    height: 120px;
 }
