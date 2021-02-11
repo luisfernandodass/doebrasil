@@ -51,18 +51,18 @@
 <button type="button" class="btn mt-1 mb-2  bg-transparent text-light allButton border-white">Escolha a quantidade que deseja doar</button>   
     
             <select class="form-control border-0 mb-2 h4">
-                <option>1x refeição</option>
-                <option>2x refeição</option>
-                <option>3x refeição</option>
-                <option>4x refeição</option>
-                <option>5x refeição</option>
+                <option onclick="valueOne('sssssdsd')" id="optionOne">1x refeição</option>
+                <option onclick="valueTwo('sssssdsd')" id="optionTwo">2x refeição</option>
+                <option onclick="valueThree('sssssdsd')" id="optionThree" terceiro()>3x refeição</option>
+                <option onclick="valueFour('sssssdsd')" id="optionFour">4x refeição</option>
+                <option onclick="valueFive('sssssdsd')" id="optionFive">5x refeição</option>
             </select>
     
             <div class="input-group">
-                <input class="form-control bg-light" type="text" placeholder="Valor da doação" readonly>
+                <button id="valueDonation" class="form-control bg-light" type="text" placeholder="Valor da doação" readonly></button>
     
                 <div class="input-group-prepend">
-                    <span type="button" class="input-group-text allButtton border-0" id="inputGroupPrepend2">Dê 8 refeições</span>
+                    <span type="button" class="input-group-text allButtton border-0" id="inputGroupPrepend2">Dê refeições</span>
                 </div>
     
             </div>
@@ -85,13 +85,14 @@
           <br>
           <small>Perfil</small>
         </a>
+        
       </nav>
 
  <!--JS-->
  <script src="jquery.js"></script>
  <script src="js/bootstrap.js"></script>
  <script src="js/bootstrap.bundle.min.js"></script>
-
+ <script src="js/doe.js"></script>
 </body>
 
 </html>
