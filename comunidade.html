@@ -1,12 +1,9 @@
 <!doctype html>
-<html lang="pt-BR">
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="../../../../favicon.ico">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
    <!-- Bootstrap core CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
@@ -20,8 +17,6 @@
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
 
-<link rel="stylesheet" href="css/doe.css">
-<link rel="stylesheet" href="css/buttons.css">
 
 <!---ícone na aba (lá em cima)--->
 <link rel="icon" href="img/logo.png">
@@ -30,6 +25,7 @@
     <!-- Custom styles for this template -->
     <link href="css/comunidade.css" rel="stylesheet">
     <link href="css/buttons.css" rel="stylesheet">
+    <link href="css/nav.css" rel="stylesheet">
 
     <title>Comunidade - Doe Brasil</title>
 </head>
@@ -44,7 +40,7 @@
 
     <div class="container">
         <div class="container text-center">
-        <button type="button" class="btn  allButtton">Convide amigos</button>   
+        <button type="button" class="btn buttonColor">Convide amigos</button>   
     </div>
 
         <div class="row">
@@ -82,7 +78,7 @@
         </div>
     </div>
     
-      <nav class="navbar navbar-expand-lg navButton  col-md-2 pl-1 pr-2 sidebar">
+      <nav class="navbar navbar-expand-lg navButton fixed-bottom">
         <a href="doe.html" class="border-0 navButton" type="button">
           <i class="fas fa-hand-holding-heart"></i>
           <br>
@@ -95,15 +91,27 @@
           <small>Comunidade</small>
         </a>
     
-        <a href="perfil.html" class="border-0 navButton" type="button">
-          <i class="fas fa-user ml-2"></i>
-          <br>
-          <small>Perfil</small>
-        </a>
+        <button class="navbar-toggler border-0 navButton" type="button" data-toggle="collapse" data-target="#perfil" aria-controls="perfil" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="fas fa-user "></span>
+            <br>
+            <small>Perfil</small>
+          </button>
+        
+        
+          <div id="perfil" class="collapse navbar-collapse sideNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                  <a class="nav-link text-dark" href="login.html">Login</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link text-dark" href="cadastro.html">Cadastro</a>
+              </li>        
+              </ul>
+          </div>
       </nav>
    
  <!--JS-->
- <script src="jquery.js"></script>
+ <script src="js/jquery.js"></script>
  <script src="js/bootstrap.js"></script>
  <script src="js/bootstrap.bundle.min.js"></script>
 

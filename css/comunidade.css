@@ -1,3 +1,6 @@
+body{
+    background-color: rgb(124, 199, 120);
+}
 .cards{
      height: 100px;
 }
@@ -17,7 +20,4 @@
     margin-bottom: 1px;
     text-align: center;
     
-}
-.secondCol{
-    height: 120px;
 }
