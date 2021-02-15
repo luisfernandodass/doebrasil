@@ -1,8 +1,7 @@
 body{
     background-color: rgb(124, 199, 120);
     font-family: 'Raleway', sans-serif;
-  }
-
-  .cadastrar{
-    margin-top: -10px;
-  }
+}
+.margemRedonda{
+    border-radius: 10px;
+}
