@@ -45,59 +45,60 @@
         <div class="container-fluid">
             
             <div class="container mt-3 text-center" >
-<h4 class="h4" style="font-size: 20px;">Ajude familias carentes</h4>
+<h4 class="h4" style="font-size: 20px;"><strong>Ajude familias carentes</strong></h4>
 </div>
 
-<button type="button" class="btn mt-1 mb-2  bg-transparent text-light allButton border-white">Escolha a quantidade que deseja doar</button>   
+<button type="button" class="btn mt-1 mb-2  bg-transparent text-light pl-1 border-white" style="width: 300px;"><strong>Escolha a quantidade que deseja doar</strong></button>   
     
             <select class="form-control border-0 mb-2 h4">
                 <option onclick="valueOne('sssssdsd')" id="optionOne">1x refeição</option>
-                <option onclick="valueTwo('sssssdsd')" id="optionTwo">2x refeição</option>
-                <option onclick="valueThree('sssssdsd')" id="optionThree" terceiro()>3x refeição</option>
-                <option onclick="valueFour('sssssdsd')" id="optionFour">4x refeição</option>
-                <option onclick="valueFive('sssssdsd')" id="optionFive">5x refeição</option>
+                <option onclick="valueTwo('sssssdsd')" id="optionTwo">2x refeições</option>
+                <option onclick="valueThree('sssssdsd')" id="optionThree" terceiro()>3x refeições</option>
+                <option onclick="valueFour('sssssdsd')" id="optionFour">4x refeições</option>
+                <option onclick="valueFive('sssssdsd')" id="optionFive">5x refeições</option>
             </select>
     
             <div class="input-group">
                 <button id="valueDonation" class="form-control bg-light" type="text" placeholder="Valor da doação" readonly></button>
     
                 <div class="input-group-prepend">
-                    <span type="button" class="input-group-text allButtton border-0" id="inputGroupPrepend2">Dê refeições</span>
+                    <span type="button" class="input-group-text allButtton border-0" id="inputGroupPrepend2"><strong>Dê refeições</strong></span>
                 </div>
     
             </div>
     
             <nav class="navbar navbar-expand-lg navButton fixed-bottom">
-        <a href="doe.html" class="border-0 navButton active" type="button">
-          <i class="fas fa-hand-holding-heart"></i>
-          <br>
-          <small>Doe</small>
-        </a>
-    
-        <a href="comunidade.html" class="border-0 navButton" type="button">
-          <i class="fas fa-comments ml-4"></i>
-          <br>
-          <small>Comunidade</small>
-        </a>
-    
-        <button class="navbar-toggler border-0 navButton" type="button" data-toggle="collapse" data-target="#perfil" aria-controls="perfil" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="fas fa-user "></span>
-          <br>
-          <small>Perfil</small>
-        </button>
-      
-      
-        <div id="perfil" class="collapse navbar-collapse sideNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-                <a class="nav-link text-dark" href="login.html">Login</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-dark" href="cadastro.html">Cadastro</a>
-            </li>        
-            </ul>
-        </div>
-      </nav>
+              <button type="button" href="doe.html" class="btn border-0 navButton" >
+                <span class="fas fa-hand-holding-heart"></span>
+                <br>
+                <small><strong>Doe</strong></small>
+              </button>
+          
+              <button type="button" href="comunidade.html" class="btn border-0 navButton" >
+                <span class="fas fa-comments"></span>
+                <br>
+                <small><strong>Comunidade</strong></small>
+              </button>
+          
+              <button type="button" class=" btn navbar-toggler border-0 navButton"  data-toggle="collapse" data-target="#perfil" aria-controls="perfil" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="fas fa-user "></span>
+                <br>
+                <small> <strong>Perfil</strong></small>
+              </button>
+            
+            
+              <div id="perfil" class="collapse navbar-collapse sideNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                      <a class="nav-link text-dark" href="login.html">Login</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link text-dark" href="cadastro.html">Cadastro</a>
+                  </li>        
+                  </ul>
+              </div>
+            </div>
+            </nav>
 
  <!--JS-->
  <script src="js/jquery.js"></script>

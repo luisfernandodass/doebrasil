@@ -6,7 +6,7 @@
 }
 body{
     background-color: rgb(124, 199, 120);
-    padding:0px;
+    font-family: 'Raleway', sans-serif;
 }
 .logo{ 
     width:220px;
@@ -19,7 +19,4 @@ body{
     padding: 15px;
     text-align: center;
     background-color: white;
-}
-.h4{
-    font-family: 'Raleway', sans-serif;
 }
