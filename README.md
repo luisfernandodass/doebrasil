@@ -5,8 +5,9 @@
 <p align="center">Doe Brasil é um site de arrecadação de doações para famílias carentes ou moradores de rua.</p>
 
 <p align="center">
- <a href="#features">Features</a> • 
  <a href="#tecnologias">Tecnologias</a> • 
+ <a href="#features">Features</a> • 
+ <a href="#imagens">Imagens</a> • 
  <a href="#licença">Licença</a> • 
  <a href="#autor">Autor</a>
 </p>
@@ -15,8 +16,14 @@
 	🚧  Doe Brasil em desenvolvimento...  🚧
 </h4>
  
- 
+ ### Tecnologias
 
+As seguintes ferramentas foram usadas na construção do projeto:
+
+- [Bootstrap]
+- [JavaScript]
+- [HTML5]
+- [CSS3]
 
 ### Features
 
@@ -28,15 +35,10 @@
 - [x] Cadastro
 - [x] Quem Somos
 
+### Imagens
 
-### Tecnologias
+<img src="https://github.com/luisfernandodass/IMAGENS/blob/main/index-1.png"> <img src="https://github.com/luisfernandodass/IMAGENS/blob/main/doe-1.png"> <img src="https://github.com/luisfernandodass/IMAGENS/blob/main/comunidade.png"> <img src="https://github.com/luisfernandodass/IMAGENS/blob/main/perfil.png"> <img src="https://github.com/luisfernandodass/IMAGENS/blob/main/cadastro.png"> <img src="https://github.com/luisfernandodass/IMAGENS/blob/main/login.png"> <img src="https://github.com/luisfernandodass/IMAGENS/blob/main/quemSomos.png">
 
-As seguintes ferramentas foram usadas na construção do projeto:
-
-- [Bootstrap]
-- [JavaScript]
-- [HTML5]
-- [CSS3]
 
 ### Licença
 <img src="https://img.shields.io/github/license/luisfernandodass/doebrasil"/>
