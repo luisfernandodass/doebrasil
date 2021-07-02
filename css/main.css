@@ -1,25 +1,114 @@
-@media (max-width: 576px) { 
-    body {
-        width: 360px;
-        
-    }
+*, body, html {
+  margin: 0;
+  padding: 0;
 }
-body{
-    background-color: rgb(124, 199, 120);
-    font-family: 'Raleway', sans-serif;
+
+body nav {
+  background: #3baa3b;
+  color: antiquewhite;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1.5em 3em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
-.logo{ 
-    width:220px;
-    margin-bottom: 10px;
+
+body nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+  margin: 0;
 }
-.mainContainer{
-   margin-top: 15px;
+
+body nav li {
+  margin: 0 1em;
 }
-.helpHomeless{
-    padding: 15px;
-    text-align: center;
-    background-color: white;
+
+body nav li a {
+  color: antiquewhite;
 }
-.line{
-    background-color: rgb(124, 199, 120);
+
+body .carousel {
+  width: 100%;
+  height: 77.5vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
 }
+
+body .carousel .carousel-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-item-align: center;
+      align-self: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .carousel .carousel-item {
+  width: 30%;
+}
+
+body .carousel .carousel-image {
+  max-width: 100%;
+  height: 30vh;
+}
+
+body .carousel .carousel-caption {
+  margin: 0 25%;
+  background: transparent;
+}
+
+body .carousel .carousel-control-prev {
+  margin-left: 30%;
+}
+
+body .carousel .chevron {
+  color: #3baa3b;
+  font-size: 2em;
+}
+
+body .carousel .carousel-control-next {
+  margin-right: 30%;
+}
+
+body .carousel .button-donation {
+  border: 0;
+  background: dodgerblue;
+  color: floralwhite;
+  padding: 1em;
+  margin-top: 2%;
+  width: 75%;
+}
+
+body footer {
+  background: #3baa3b;
+  color: antiquewhite;
+  padding: 1.5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=main.css.map */

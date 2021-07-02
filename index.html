@@ -1,103 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="pt-BR">
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
-    <!---Font awesome-->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
-    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-
-<!---Google fonts-->
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
-
-  <link href="css/main.css" rel="stylesheet">
-  <link href="css/buttons.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/nav.css">
-
-
-  <!---ícone na aba (lá em cima)--->
-  <link rel="icon" href="img/logo.png">
-
+  integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/main.css">
   <title>Doe Brasil</title>
 </head>
-
 <body>
-
-
-
-  <div class="container mainContainer">
-
-    <div class="container logo">
-      <img src="img/logo.png" class="img-fluid" alt="">
-    </div>
-
-    <img src="img/homeless-1.jpg" class="img-fluid rounded-top" alt="">
-
-    <div class="container helpHomeless rounded-bottom">
-      <h4 class="h4"><strong>Ajude moradores de rua</strong></h4>
-      <a href="doe.html" type="button" class="btn allButtton mt-2"><strong>Doe agora</strong></a>
-    </div>
-
-    <div class="container mt-3 text-center">
-      <a href="#"><span class="fab fa-facebook-f text-light"></span></a>
-      <a href="#"><span class="fab fa-instagram text-light ml-3"></span></a>
-      <a href="#"><span class="fab fa-whatsapp text-light ml-3"></span></a>
-    </div>
-  
-
-  <nav class="navbar navbar-expand-lg navButton fixed-bottom">
-    <button type="button" href="doe.html" class="btn border-0 navButton" >
-      <span class="fas fa-hand-holding-heart"></span>
-      <br>
-      <small><strong>Doe</strong></small>
-    </button>
-
-    <button type="button" href="comunidade.html" class="btn border-0 navButton" >
-      <span class="fas fa-comments"></span>
-      <br>
-      <small><strong>Comunidade</strong></small>
-    </button>
-
-    <button type="button" class=" btn navbar-toggler border-0 navButton"  data-toggle="collapse" data-target="#perfil" aria-controls="perfil" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="fas fa-user "></span>
-      <br>
-      <small> <strong>Perfil</strong></small>
-    </button>
-  
-  
-    <div id="perfil" class="collapse navbar-collapse sideNav">
-
-      <div class="container-fluid line mt-3" style="height: 1px;">.</div>
-
-      <ul class="navbar-nav">
-        <li class="nav-item">
-            <a class="nav-link text-dark" href="login.html"><strong>Login</strong></a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link text-dark" href="cadastro.html"><strong>Cadastro</strong></a>
-        </li>        
-        
-        <div class="container-fluid line mt-1" style="height: 1px;">.</div>
-
-        <li class="nav-item mt-3">
-          <a class="nav-link text-dark" href="quemSomos.html">Sobre nós</a>
-      </li>        
-      </ul>
-
-    </div>
-  </div>
+  <nav>
+    <span>Doe Brasil</span>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Contato</a></li>
+      <li><a href="#">Quem somos</a></li>
+    </ul>
   </nav>
 
-<!--JS-->
-<script src="js/jquery.js"></script>
-<script src="js/bootstrap.js"></script>
-<script src="js/bootstrap.bundle.min.js"></script>
+  <div id="carouselExampleSlidesOnly" class="carousel" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./img/homeless-1.jpg" class="carousel-image" alt="...">
+        <div class="carousel-caption">
+          <h5>Doe para moradores de rua</h5>
+          <p>O seu dinheiro é transformado em refeições.</p>
+        </div>
+        <button type="button" class="button-donation">Doe agora</button>
+      </div>
+
+      <div class="carousel-item">
+        <img src="./img/homeless-2.jpg" class="carousel-image" alt="...">
+        <div class="carousel-caption">
+          <h5>Doe para moradores de rua</h5>
+          <p>Eles precisam da sua ajuda, o seu dinheiro é transformado em refeições.</p>
+        </div>
+        <button type="button" class="button-donation">Doe agora</button>
+      </div>
+
+      <div class="carousel-item">
+        <img src="./img/homeless-3.jpg" class="carousel-image" alt="...">
+        <div class="carousel-caption">
+          <h5>Doe para moradores de rua</h5>
+          <p>Eles precisam da sua ajuda, o seu dinheiro é transformado em refeições.</p>
+        </div>
+        <button type="button" class="button-donation">Doe agora</button>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+      <span class="fas fa-chevron-left chevron" aria-hidden="true"></span>
+    </a><
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+      <span class="fas fa-chevron-right chevron" aria-hidden="true"></span>
+    </a>
+
+  </div>
+
+  <footer>
+    Desenvolvido por Luis Fernando, 2021.
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -1,0 +1,89 @@
+*, body, html{
+  margin:0;
+  padding: 0;
+}
+
+body{
+  nav{
+    background: rgb(59, 170, 59);
+    color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5em 3em;
+    align-items: center;
+
+  ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+  }
+  li{
+    margin: 0 1em;
+
+    a{
+      color: antiquewhite;
+    }
+  }
+  }
+  .carousel{
+    width: 100%;
+    height: 77.5vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    .carousel-inner{
+      display: flex;
+      flex-direction: row;
+      align-self: center;
+      justify-content: center;
+    }
+
+    .carousel-item{
+      width: 30%;
+    }
+
+    .carousel-image{
+      max-width: 100%;
+      height: 30vh;
+    }
+
+    .carousel-caption{
+      margin: 0 25%;
+      background: transparent;
+    }
+
+    .carousel-control-prev{
+      margin-left: 30%;
+    }
+
+    .chevron{
+      color: rgb(59, 170, 59);
+      font-size: 2em;
+    }
+    .carousel-control-next{
+      margin-right: 30%;
+    }
+
+    .button-donation{
+      border: 0;
+      background: dodgerblue;
+      color: floralwhite;
+      padding: 1em;
+      margin-top: 2%;
+      width: 75%;
+    }
+  }
+
+
+
+  footer{
+    background: rgb(59, 170, 59);
+    color: antiquewhite;
+    
+    padding: 1.5em;
+    display: flex;
+    justify-content: center;    
+  }
+}
