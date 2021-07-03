@@ -3,19 +3,26 @@
   padding: 0;
 }
 
+body {
+  font-family: 'Lato', sans-serif;
+}
+
 body nav {
   background: #3baa3b;
   color: antiquewhite;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   padding: 1.5em 3em;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+}
+
+body nav .logo {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 24px;
+  margin-right: 40%;
+}
+
+body nav .active {
+  font-weight: 700;
+  color: #12589e;
 }
 
 body nav ul {
@@ -27,22 +34,31 @@ body nav ul {
           justify-content: space-between;
   list-style: none;
   margin: 0;
+  text-transform: uppercase;
 }
 
 body nav li {
-  margin: 0 1em;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
-body nav li a {
+body nav li:nth-child(n+2):nth-child(-n+4) {
+  margin-left: 100px;
+}
+
+body nav li:nth-child(n+2):nth-child(-n+4) a {
   color: antiquewhite;
 }
 
 body .carousel {
-  width: 100%;
-  height: 77.5vh;
+  height: 75.8vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -62,24 +78,37 @@ body .carousel .carousel-inner {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  width: 400px;
 }
 
 body .carousel .carousel-item {
-  width: 30%;
+  width: 285px;
 }
 
 body .carousel .carousel-image {
   max-width: 100%;
   height: 30vh;
+  border-radius: 5px 5px 0px 0px;
 }
 
 body .carousel .carousel-caption {
-  margin: 0 25%;
-  background: transparent;
+  position: absolute;
+  height: 15vh;
+  width: 100%;
+  border-radius: 5px;
+  color: antiquewhite;
+  font-weight: 400;
+  left: 0px;
+  margin: 0px 0px 45px 0px;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+body .carousel .carousel-caption h5 {
+  font-weight: 700;
 }
 
 body .carousel .carousel-control-prev {
-  margin-left: 30%;
+  margin-bottom: 0%;
 }
 
 body .carousel .chevron {
@@ -88,16 +117,23 @@ body .carousel .chevron {
 }
 
 body .carousel .carousel-control-next {
-  margin-right: 30%;
+  margin-bottom: 0%;
 }
 
 body .carousel .button-donation {
   border: 0;
+  border-radius: 0px 0px 5px 5px;
   background: dodgerblue;
   color: floralwhite;
   padding: 1em;
-  margin-top: 2%;
-  width: 75%;
+  width: 100%;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+body .carousel .button-donation:hover {
+  background: #12589e;
 }
 
 body footer {
@@ -110,5 +146,6 @@ body footer {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  font-style: italic;
 }
 /*# sourceMappingURL=main.css.map */

@@ -4,32 +4,53 @@
 }
 
 body{
+  font-family: 'Lato', sans-serif;
+
   nav{
     background: rgb(59, 170, 59);
     color: antiquewhite;
-    display: flex;
-    justify-content: space-between;
+  
     padding: 1.5em 3em;
-    align-items: center;
+
+    .logo{
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 24px;
+      margin-right: 40%;
+    }
+
+    .active{
+     font-weight: 700;
+     color: rgb(18, 88, 158);
+    }
 
   ul{
     display: flex;
     justify-content: space-between;
+   
     list-style: none;
     margin: 0;
+    text-transform: uppercase;
   }
-  li{
-    margin: 0 1em;
 
+  li{
+    align-self: center;
+  }
+
+  li:nth-child(n+2):nth-child(-n+4){
+   margin-left: 100px;
+  
+    
     a{
       color: antiquewhite;
     }
   }
   }
+
   .carousel{
-    width: 100%;
-    height: 77.5vh;
+    height: 75.8vh;
     display: flex;
+    justify-content: center;
     align-items: center;
     text-align: center;
 
@@ -38,45 +59,65 @@ body{
       flex-direction: row;
       align-self: center;
       justify-content: center;
+      width: 400px;
     }
-
     .carousel-item{
-      width: 30%;
+      width: 285px;
     }
 
     .carousel-image{
       max-width: 100%;
       height: 30vh;
+      border-radius: 5px 5px 0px 0px;
     }
 
-    .carousel-caption{
-      margin: 0 25%;
-      background: transparent;
+    .carousel-caption{   
+      position: absolute;
+      height: 15vh;
+      width: 100%;
+      border-radius: 5px;
+      color: antiquewhite;
+      font-weight: 400;
+      left: 0px;
+      margin: 0px 0px 45px 0px;
+      background: rgba(0, 0, 0, 0.4);
+    
+      h5{
+        font-weight: 700;
+      }
     }
 
     .carousel-control-prev{
-      margin-left: 30%;
+     
+      margin-bottom: 0%;
     }
 
     .chevron{
       color: rgb(59, 170, 59);
       font-size: 2em;
     }
+
     .carousel-control-next{
-      margin-right: 30%;
+     
+      margin-bottom: 0%;
     }
 
     .button-donation{
       border: 0;
+      border-radius: 0px 0px 5px 5px;
       background: dodgerblue;
       color: floralwhite;
       padding: 1em;
-      margin-top: 2%;
-      width: 75%;
+      width: 100%;
+      cursor: pointer;
+      text-transform: uppercase;
+      font-weight: 700;
+    }
+
+    .button-donation:hover{
+      background: rgb(18, 88, 158);
     }
   }
-
-
 
   footer{
     background: rgb(59, 170, 59);
@@ -85,5 +126,6 @@ body{
     padding: 1.5em;
     display: flex;
     justify-content: center;    
+    font-style: italic;
   }
 }
