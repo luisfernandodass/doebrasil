@@ -1,131 +1,67 @@
-*, body, html{
-  margin:0;
-  padding: 0;
-}
-
-body{
-  font-family: 'Lato', sans-serif;
-
-  nav{
-    background: rgb(59, 170, 59);
-    color: antiquewhite;
-  
-    padding: 1.5em 3em;
-
-    .logo{
-      text-transform: uppercase;
-      font-weight: 700;
-      font-size: 24px;
-      margin-right: 40%;
-    }
-
-    .active{
-     font-weight: 700;
-     color: rgb(18, 88, 158);
-    }
-
-  ul{
+  .carousel-inner {
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
    
-    list-style: none;
-    margin: 0;
-    text-transform: uppercase;
-  }
-
-  li{
-    align-self: center;
-  }
-
-  li:nth-child(n+2):nth-child(-n+4){
-   margin-left: 100px;
-  
-    
-    a{
-      color: antiquewhite;
-    }
-  }
-  }
-
-  .carousel{
-    height: 75.8vh;
-    display: flex;
     justify-content: center;
-    align-items: center;
-    text-align: center;
+    width: 400px;
+  }
 
-    .carousel-inner{
-      display: flex;
-      flex-direction: row;
-      align-self: center;
-      justify-content: center;
-      width: 400px;
-    }
-    .carousel-item{
-      width: 285px;
-    }
+  .carousel-item {
+    width: 285px;
+  }
 
-    .carousel-image{
-      max-width: 100%;
-      height: 30vh;
-      border-radius: 5px 5px 0px 0px;
-    }
+  .carousel-image {
+    max-width: 100%;
+    height: 30vh;
+    border-radius: 5px 5px 0px 0px;
+    box-shadow: 1px 2px 10px 1px rgb(0, 0, 0);
+  }
 
-    .carousel-caption{   
-      position: absolute;
-      height: 15vh;
-      width: 100%;
-      border-radius: 5px;
-      color: antiquewhite;
-      font-weight: 400;
-      left: 0px;
-      margin: 0px 0px 45px 0px;
-      background: rgba(0, 0, 0, 0.4);
-    
-      h5{
-        font-weight: 700;
-      }
-    }
+  .carousel-caption {
+    height: 15vh;
+    width: 100%;
+    border-radius: 5px;
+    color: antiquewhite;
+    font-weight: 400;
+    left: 0px;
+    margin: 0px 0px 45px 0px;
+    background: rgba(0, 0, 0, 0.4);
 
-    .carousel-control-prev{
-     
-      margin-bottom: 0%;
-    }
-
-    .chevron{
-      color: rgb(59, 170, 59);
-      font-size: 2em;
-    }
-
-    .carousel-control-next{
-     
-      margin-bottom: 0%;
-    }
-
-    .button-donation{
-      border: 0;
-      border-radius: 0px 0px 5px 5px;
-      background: dodgerblue;
-      color: floralwhite;
-      padding: 1em;
-      width: 100%;
-      cursor: pointer;
-      text-transform: uppercase;
+    h5 {
       font-weight: 700;
     }
+  }
 
-    .button-donation:hover{
-      background: rgb(18, 88, 158);
+  .carousel-control-prev {
+    margin-bottom: 0%;
+  }
+
+  .chevron {
+    color: rgb(59, 170, 59);
+    font-size: 2em;
+  }
+
+  .carousel-control-next {
+    margin-bottom: 0%;
+  }
+
+  .button-donation {
+    border: 0;
+    border-radius: 0px 0px 5px 5px;
+    background: dodgerblue;
+    padding: 1em;
+    width: 100%;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 700;
+    box-shadow: 1px 2px 10px 1px rgb(0, 0, 0);
+
+    a{
+      color: floralwhite;
+      text-decoration: none;
     }
   }
 
-  footer{
-    background: rgb(59, 170, 59);
-    color: antiquewhite;
-    
-    padding: 1.5em;
-    display: flex;
-    justify-content: center;    
-    font-style: italic;
+  .button-donation:hover {
+    background: rgb(18, 88, 158);
   }
-}

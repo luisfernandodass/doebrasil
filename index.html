@@ -1,56 +1,69 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" />
-  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-  integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300&display=swap" rel="stylesheet"> 
-  <link rel="stylesheet" href="./css/main.css">
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="./css/global.css" />
+  <link rel="stylesheet" href="./css/main.css" />
   <title>Doe Brasil</title>
 </head>
+
 <body>
   <nav>
-    
+    <span class="logo">Doe Brasil</span>
     <ul>
-      <li class="logo">Doe Brasil</li>
       <li><a href="#" class="active">Home</a></li>
-      <li><a href="#">Contato</a></li>
-      <li><a href="#">Quem somos</a></li>
+      <li><a href="/ajude.html">Ajude</a></li>
+      <li><a href="/acoes.html">Ações</a></li>
+      <li><a href="/quem-somos.html">Quem somos</a></li>
     </ul>
   </nav>
 
-  <div id="carouselExampleSlidesOnly" class="carousel" data-ride="carousel">
-    <div class="carousel-inner">
-
-      <div class="carousel-item active">
-        <img src="./img/homeless-3.jpg" class="carousel-image" alt="...">
-        <div class="carousel-caption">
-          <h5>Doe para moradores de rua</h5>
-          <p>Eles precisam da sua ajuda, o seu dinheiro é transformado em refeições.</p>
+  <div class="container">
+    <div id="carouselExampleSlidesOnly" class="carousel" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./img/homeless-3.jpg" class="carousel-image" alt="..." />
+          <div class="carousel-caption">
+            <h5>Doe para moradores de rua</h5>
+            <p>
+              Eles precisam da sua ajuda, o seu dinheiro é transformado em
+              refeições.
+            </p>
+          </div>
+          <button type="button" class="button-donation"><a href="/ajude.html">Doe agora</a></button>
         </div>
-        <button type="button" class="button-donation">Doe agora</button>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="fas fa-chevron-left chevron" aria-hidden="true"></span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="fas fa-chevron-right chevron" aria-hidden="true"></span>
+        </a>
       </div>
-      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-        <span class="fas fa-chevron-left chevron" aria-hidden="true"></span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-        <span class="fas fa-chevron-right chevron" aria-hidden="true"></span>
-      </a>
     </div>
   </div>
 
-  <footer>
-    Desenvolvido por Luis Fernando, 2021.
-  </footer>
+  <footer>Desenvolvido por Luis Fernando, 2021.</footer>
 
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>

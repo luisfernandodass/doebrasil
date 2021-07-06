@@ -1,0 +1,81 @@
+  .left-section{
+    width: 50%;
+    height: 77.3vh;
+
+    .image{
+      background-image: url('/img/poor-1.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 77.3vh;
+    }
+    }
+
+    .thanks{
+      display: none;
+      background: antiquewhite;
+      color: rgba(5, 3, 3, 0.9);
+      position: absolute;
+      border-radius: 5px;
+      height: 300px;
+      width: 300px;
+      padding: 30px 30px;
+      box-shadow: 1px 2px 10px 1px rgb(0, 0, 0);
+      text-align: center;
+
+      .fa-times{
+        color: rgba(5, 3, 3, 0.9);
+        font-size: 2em;
+        float: right;
+        cursor: pointer;
+      }
+
+      h1{
+        margin-top: 100px;
+        font-size: 22px;
+      }
+      p{
+        margin-top: 10px;
+      }
+    }
+
+  .right-section{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-transform: uppercase;
+    align-items: center;
+
+    form{
+      display: flex;
+      flex-direction: column;
+      width: 80%;
+      color: antiquewhite;
+      input{
+        background: transparent;
+        border-width: 1px;
+        border-color: antiquewhite;
+        border-radius: 5px;
+        color: antiquewhite;
+        padding: 10px;
+        margin: 10px 0px;
+      }
+
+      .confirm-donation{
+        background:  dodgerblue;
+        color: antiquewhite;
+        width: 100%;
+        text-transform: uppercase;
+        border: 0;
+        padding: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-weight: 700;
+        margin-top: 10px;
+      }
+
+      .confirm-donation:hover{
+        background: rgb(18, 88, 158);
+      }
+    }
+  }
