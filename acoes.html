@@ -14,14 +14,24 @@
 <body>
   <nav>
     <span class="logo">Doe Brasil</span>
-    <ul>
-      <li><a href="/">Home</a></li>
-      <li><a href="/ajude.html">Ajude</a></li>
-      <li><a href="/acoes.html" class="active">Ações</a></li>
-      <li><a href="/quem-somos.html">Quem somos</a></li>
+    <i class="fas fa-bars"></i>
+    <ul class="pages-ul">
+      <li><a href="/" class="pages-li">Home</a></li>
+      <li><a href="/ajude.html" class="pages-li">Ajude</a></li>
+      <li><a href="/acoes.html" class="active pages-li">Ações</a></li>
+      <li><a href="/quem-somos.html" class="pages-li">Quem somos</a></li>
     </ul>
   </nav>
-  <h1>Áreas em que atuamos</h1>
+  <div class="menu">
+    <li><i class="fas fa-times"></i></li>
+    <li><a href="/" class="pages-li">Home</a></li>
+    <li><a href="/ajude.html" class="pages-li">Ajude</a></li>
+    <li><a href="/acoes.html" class="active pages-li">Ações</a></li>
+    <li><a href="/quem-somos.html" class="pages-li">Quem somos</a></li>
+  </div>
+
+  <h1 class="areas">Áreas em que atuamos</h1>
+  
   <div class="container">
 
     <div class="box box-one">
@@ -45,6 +55,6 @@
   <footer>
     Desenvolvido por Luis Fernando, 2021.
   </footer>
-  <script src="./js/script.js"></script>
+  <script src="/js/menu.js"></script>
 </body>
 </html>

@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300&display=swap" rel="stylesheet"> 
   <link rel="stylesheet" href="./css/global.css">
@@ -13,13 +14,23 @@
 <body>
   <nav>
     <span class="logo">Doe Brasil</span>
-    <ul>
-      <li><a href="/" >Home</a></li>
-      <li><a href="/ajude.html">Ajude</a></li>
-      <li><a href="/acoes.html">Ações</a></li>
-      <li><a href="/quem-somos.html" class="active">Quem somos</a></li>
+    <i class="fas fa-bars"></i>
+    
+    <ul class="pages-ul">
+      <li><a href="/" class="pages-li">Home</a></li>
+      <li><a href="/ajude.html" class="pages-li">Ajude</a></li>
+      <li><a href="/acoes.html" class="pages-li">Ações</a></li>
+      <li><a href="/quem-somos.html" class="active pages-li">Quem somos</a></li>
     </ul>
   </nav>
+
+  <div class="menu">
+    <li><i class="fas fa-times"></i></li>
+    <li><a href="/" class="pages-li">Home</a></li>
+    <li><a href="/ajude.html" class="pages-li">Ajude</a></li>
+    <li><a href="/acoes.html" class="pages-li">Ações</a></li>
+    <li><a href="/quem-somos.html" class="active pages-li">Quem somos</a></li>
+  </div>
 
  <div class="container">
   <section class="who-we-are-container">
@@ -34,5 +45,7 @@
  <footer>
   Desenvolvido por Luis Fernando, 2021.
 </footer>
+
+<script src="/js/menu.js"></script>
 </body>
 </html>

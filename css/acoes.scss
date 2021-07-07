@@ -32,6 +32,10 @@
   }
 
   @media (max-width: 699px){
+
+    h1{
+      display: none;
+    }
     .container{
       justify-content: space-between;
       flex-direction: column;
@@ -39,7 +43,7 @@
       height: 130vh!important;
 
       .box{        
-        width: 50%;
+        width: 40%;
         flex-basis: 50px;
         flex-wrap: nowrap;
         flex-shrink: 1;
@@ -52,6 +56,9 @@
 
       .box-one{
         margin-top: 30%;
+      }
+      .box-three{
+        margin-bottom: 25%;
       }
     }
 

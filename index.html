@@ -21,13 +21,23 @@
 <body>
   <nav>
     <span class="logo">Doe Brasil</span>
-    <ul>
-      <li><a href="#" class="active">Home</a></li>
-      <li><a href="/ajude.html">Ajude</a></li>
-      <li><a href="/acoes.html">Ações</a></li>
-      <li><a href="/quem-somos.html">Quem somos</a></li>
+    <i class="fas fa-bars"></i>
+    
+    <ul class="pages-ul">
+      <li><a href="#" class="active pages-li">Home</a></li>
+      <li><a href="/ajude.html" class="pages-li">Ajude</a></li>
+      <li><a href="/acoes.html" class="pages-li">Ações</a></li>
+      <li><a href="/quem-somos.html" class="pages-li">Quem somos</a></li>
     </ul>
   </nav>
+
+  <div class="menu">
+    <li><i class="fas fa-times"></i></li>
+    <li><a href="/" class="active pages-li">Home</a></li>
+    <li><a href="/ajude.html" class="pages-li">Ajude</a></li>
+    <li><a href="/acoes.html" class="pages-li">Ações</a></li>
+    <li><a href="/quem-somos.html" class="pages-li">Quem somos</a></li>
+  </div>
 
   <div class="container">
     <div id="carousel-container" class="carousel" data-ride="carousel">
@@ -66,6 +76,7 @@
 
   <footer>Desenvolvido por Luis Fernando, 2021.</footer>
 
+  <script src="/js/menu.js"></script>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
     crossorigin="anonymous"></script>

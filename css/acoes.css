@@ -38,6 +38,9 @@ h1 {
 }
 
 @media (max-width: 699px) {
+  h1 {
+    display: none;
+  }
   .container {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
@@ -50,7 +53,7 @@ h1 {
     height: 130vh !important;
   }
   .container .box {
-    width: 50%;
+    width: 40%;
     -ms-flex-preferred-size: 50px;
         flex-basis: 50px;
     -ms-flex-wrap: nowrap;
@@ -67,6 +70,9 @@ h1 {
   }
   .container .box-one {
     margin-top: 30%;
+  }
+  .container .box-three {
+    margin-bottom: 25%;
   }
 }
 /*# sourceMappingURL=acoes.css.map */
