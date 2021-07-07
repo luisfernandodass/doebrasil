@@ -2,11 +2,23 @@ h1 {
   width: 100%;
   text-align: center;
   color: antiquewhite;
+  position: absolute;
+  margin-top: 2%;
 }
 
 .box {
   border-radius: 5px;
   margin: 20px;
+  height: 45vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-preferred-size: 380px;
+      flex-basis: 380px;
 }
 
 .box img {
@@ -16,5 +28,43 @@ h1 {
 
 .box p {
   color: antiquewhite;
+  margin-top: 10px;
+}
+
+.box-three img {
+  height: 254px;
+}
+
+@media (max-width: 699px) {
+  .container {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: -15%;
+    height: 100vh !important;
+  }
+  .container .box {
+    width: 50%;
+    -ms-flex-preferred-size: 50px;
+        flex-basis: 50px;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -ms-flex-negative: 1;
+        flex-shrink: 1;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .container .box p {
+    margin-left: 15px;
+  }
+  .container .box-one {
+    margin-top: 30%;
+  }
 }
 /*# sourceMappingURL=acoes.css.map */

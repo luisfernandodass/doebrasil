@@ -1,6 +1,6 @@
 .who-we-are-container {
-  background-color: antiquewhite;
-  color: rgba(5, 3, 3, 0.9);
+  background-color: transparent;
+  color: antiquewhite;
   width: 400px;
   height: 50vh;
   -webkit-box-shadow: 1px 2px 10px 1px black;

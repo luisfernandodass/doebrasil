@@ -2,21 +2,61 @@
    width: 100%;
    text-align: center;
    color: antiquewhite;
+   position: absolute;
+   margin-top: 2%;
  }
  .box{
     border-radius: 5px;
     margin: 20px;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 380px;
     
     img{
       max-width: 100%;
       border-radius: 5px;
     }
 
-    p{
-     
-      color: antiquewhite;
-     
+    p{   
+      color: antiquewhite;    
+      margin-top: 10px;
     }
+  }
+
+  .box-three{
+    
+    img{
+      height: 254px;
+    }
+  }
+
+  @media (max-width: 699px){
+    .container{
+      justify-content: space-between;
+      flex-direction: column;
+      margin-left: -15%;  
+      height: 100vh!important;
+
+      .box{
+        
+        width: 50%;
+        flex-basis: 50px;
+        flex-wrap: nowrap;
+        flex-shrink: 1;
+        flex-direction: row;
+        
+        p{
+          margin-left: 15px;
+        
+        }
+      }
+
+      .box-one{
+        margin-top: 30%;
+      }
+    }
+
   }
   
 

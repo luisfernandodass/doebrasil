@@ -98,5 +98,7 @@ body footer {
       -ms-flex-pack: center;
           justify-content: center;
   font-style: italic;
+  position: fixed;
+  width: 100%;
 }
 /*# sourceMappingURL=global.css.map */
