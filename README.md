@@ -35,7 +35,8 @@ As seguintes ferramentas foram usadas na construção do projeto:
  
  <b>Luis Fernando</b>
  
-Desenvolvido por Luis Fernando, 2021. 👋🏽 Entre em contato!
+Desenvolvido por Luis Fernando, 2021. 
+👋🏽 Entre em contato!
 
 [![Linkedin Badge](https://img.shields.io/badge/-Luis-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/luisfernando/)](https://www.linkedin.com/in/luisfernando/) 
 [![Gmail Badge](https://img.shields.io/badge/-luisfernandodass@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:luisfernandodass@gmail.com)](mailto:luisfernandodass@gmail.com)
