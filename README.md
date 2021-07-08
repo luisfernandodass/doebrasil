@@ -1,20 +1,10 @@
-<h1 align="center">Doe Brasil</h1>
+#Doe Brasil
 
-<h3 align="center">Sobre o projeto</h3>
+<h3>Objetivo</h3>
 
-<p align="center">Doe Brasil é um site de arrecadação de doações para famílias carentes ou moradores de rua.</p>
+<p>Doe Brasil é um site de arrecadação de doações para os necessitados.</p>
 
-<p align="center">
- <a href="#tecnologias">Tecnologias</a> • 
- <a href="#features">Features</a> • 
- <a href="#imagens">Imagens</a> • 
- <a href="#licença">Licença</a> • 
- <a href="#autor">Autor</a>
-</p>
-
-<h4 align="center"> 
-	🚧  Doe Brasil em desenvolvimento...  🚧
-</h4>
+<h4> 🚧  Doe Brasil em desenvolvimento...  🚧</h4>
  
  ### Tecnologias
 
@@ -25,19 +15,12 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [HTML5]
 - [CSS3]
 
-### Features
-
-- [x] Tela inicial
-- [x] Tela de doação
-- [x] Comunidade
-- [x] Perfil
-- [x] Login
-- [x] Cadastro
-- [x] Quem Somos
-
 ### Imagens
 
-<img src="https://github.com/luisfernandodass/IMAGENS/blob/main/doebrasil-imagens/index-1.png"> <img src="https://github.com/luisfernandodass/IMAGENS/blob/main/doebrasil-imagens/doe-1.png"> <img src="https://github.com/luisfernandodass/IMAGENS/blob/main/doebrasil-imagens/comunidade.png"> <img src="https://github.com/luisfernandodass/IMAGENS/blob/main/doebrasil-imagens/perfil.png" ><img src="https://github.com/luisfernandodass/IMAGENS/blob/main/doebrasil-imagens/cadastro.png"> <img src="https://github.com/luisfernandodass/IMAGENS/blob/main/doebrasil-imagens/login.png"> <img src="https://github.com/luisfernandodass/IMAGENS/blob/main/doebrasil-imagens/quemSomos.png">
+![image](https://user-images.githubusercontent.com/67171626/124947368-27e93880-dfe6-11eb-9225-a46d97d2912d.png)
+![image](https://user-images.githubusercontent.com/67171626/124947447-36cfeb00-dfe6-11eb-913b-95cb204d4ec0.png)
+![image](https://user-images.githubusercontent.com/67171626/124947485-3f282600-dfe6-11eb-9b64-4b9842e34457.png)
+![image](https://user-images.githubusercontent.com/67171626/124947510-44857080-dfe6-11eb-9d74-4ec7c0bb00bd.png)
 
 
 ### Licença
@@ -45,7 +28,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ### Autor
 ---
-
 
  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/67171626?s=460&u=609fc063322b859752a5675bd4e17657e650a389&v=4" width="100px;" alt=""/>
  
