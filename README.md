@@ -1,21 +1,23 @@
-#Doe Brasil
+# Doe Brasil
 
-<h3>Objetivo</h3>
+## Objetivo
 
-<p>Doe Brasil é um site de arrecadação de doações para os necessitados.</p>
+Doe Brasil é um site de arrecadação de doações para os necessitados.
 
-<h4> 🚧  Doe Brasil em desenvolvimento...  🚧</h4>
+## Host
+
+Acesse o site: https://doebrasil.netlify.app/
  
- ### Tecnologias
+## Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-- [Bootstrap]
 - [JavaScript]
 - [HTML5]
 - [CSS3]
+- [Bootstrap]
 
-### Imagens
+## Imagens
 
 ![image](https://user-images.githubusercontent.com/67171626/124947368-27e93880-dfe6-11eb-9225-a46d97d2912d.png)
 ![image](https://user-images.githubusercontent.com/67171626/124947447-36cfeb00-dfe6-11eb-913b-95cb204d4ec0.png)
@@ -23,10 +25,10 @@ As seguintes ferramentas foram usadas na construção do projeto:
 ![image](https://user-images.githubusercontent.com/67171626/124947510-44857080-dfe6-11eb-9d74-4ec7c0bb00bd.png)
 
 
-### Licença
+## Licença
 <img src="https://img.shields.io/github/license/luisfernandodass/doebrasil"/>
 
-### Autor
+## Autor
 ---
 
  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/67171626?s=460&u=609fc063322b859752a5675bd4e17657e650a389&v=4" width="100px;" alt=""/>
