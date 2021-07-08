@@ -29,7 +29,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 <img src="https://img.shields.io/github/license/luisfernandodass/doebrasil"/>
 
 ## Autor
----
 
  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/67171626?s=460&u=609fc063322b859752a5675bd4e17657e650a389&v=4" width="100px;" alt=""/>
  
