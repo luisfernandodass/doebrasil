@@ -1,5 +1,5 @@
 const buttonConfirmDonation = document.querySelector('.confirm-donation');
-const buttonCloseConfirmDonation = document.querySelector('.fa-times');
+const buttonCloseConfirmDonation = document.querySelector('.closeThanksDonation');
 const thanks = document.querySelector('.thanks')
 
 function confirmDonation(){
