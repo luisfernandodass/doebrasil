@@ -1,23 +1,23 @@
 # Doe Brasil
 
-## Objetivo
+## Objective
 
-Doe Brasil é um site de arrecadação de doações para os necessitados.
+Doe Brasil is a website for you to donate for the needy.
 
 ## Host
 
-Acesse o site: https://doebrasil.netlify.app/
+Access the website: https://doebrasil.netlify.app/
  
-## Tecnologias
+## Tools
 
-As seguintes ferramentas foram usadas na construção do projeto:
+The following tools were used to build the project:
 
 - JavaScript
 - HTML5
 - CSS3
 - Bootstrap
 
-## Imagens
+## Images
 
 ![image](https://user-images.githubusercontent.com/67171626/124947368-27e93880-dfe6-11eb-9225-a46d97d2912d.png)
 ![image](https://user-images.githubusercontent.com/67171626/124947447-36cfeb00-dfe6-11eb-913b-95cb204d4ec0.png)
@@ -25,16 +25,16 @@ As seguintes ferramentas foram usadas na construção do projeto:
 ![image](https://user-images.githubusercontent.com/67171626/124947510-44857080-dfe6-11eb-9d74-4ec7c0bb00bd.png)
 
 
-## Licença
+## License
 <img src="https://img.shields.io/github/license/luisfernandodass/doebrasil"/>
 
-## Autor
+## Author
 
  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/67171626?s=460&u=609fc063322b859752a5675bd4e17657e650a389&v=4" width="100px;" alt=""/>
  
  <b>Luis Fernando</b>
  
-👋🏽 Entre em contato!
+👋🏽 Contact me!
 
 [![Linkedin Badge](https://img.shields.io/badge/-Luis-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/luisfernando/)](https://www.linkedin.com/in/luisfernando/) 
 [![Gmail Badge](https://img.shields.io/badge/-luisfernandodass@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:luisfernandodass@gmail.com)](mailto:luisfernandodass@gmail.com)
