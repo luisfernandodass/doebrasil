@@ -18,7 +18,8 @@ The following tools were used to build the project:
 - Bootstrap
 
 ## Images
-![image](https://user-images.githubusercontent.com/67171626/126084203-b86cc53d-46fe-45c4-b034-d0478e21c6d5.png)![image](https://user-images.githubusercontent.com/67171626/126084265-3ef18db8-d939-4fbb-b4c3-bb9f8b6caa26.png)
+![image](https://user-images.githubusercontent.com/67171626/126084203-b86cc53d-46fe-45c4-b034-d0478e21c6d5.png)
+![image](https://user-images.githubusercontent.com/67171626/126084265-3ef18db8-d939-4fbb-b4c3-bb9f8b6caa26.png)
 ![image](https://user-images.githubusercontent.com/67171626/124947368-27e93880-dfe6-11eb-9225-a46d97d2912d.png)
 ![image](https://user-images.githubusercontent.com/67171626/124947447-36cfeb00-dfe6-11eb-913b-95cb204d4ec0.png)
 ![image](https://user-images.githubusercontent.com/67171626/124947485-3f282600-dfe6-11eb-9b64-4b9842e34457.png)
